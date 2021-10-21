@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>SDS LoanApproval Portal</title>
+        <style>
+            body{
+                
+                background-color: black;
+
+            }
+            h1{
+                font-size: 70px;
+            }
+            
+            marquee{
+                margin-bottom: -50px;
+                font-family:sans-serif;
+                font-size: 20px;
+            }
+            
+        
+        </style>
+    </head>
+    
+    <body>
+    <center>
+        <div style="width:800px;height:80px;border-style: double; border-color:aqua; margin-top:80px">
+        <h1 style="color: aqua;text-align: center; margin-top:5px">SDS LOAN APPROVAL</h1>
+        </div>
+        
+        <marquee direction="right"   behavior="scroll" width="1000px" height="20px" style="background-color:aqua; color:black"  hspace="120px" vspace="2px" scrollamount="15"> WELCOME TO SDS LOAN APPROVAL PORTAL 
+        </marquee>
+        
+        <div style="margin-right:1000px; margin-top: 130px">
+            <!-- <img src="Image-2.jpeg" style="width:350px; border-style: dashed; border-color: aqua;border-width: 10px" /> -->
+            <img src = "{{url_for('static', filename = 'Image-2.jpeg')}}" style="width:350px; border-style: dashed; border-color: aqua;border-width: 10px">
+        </div> 
+        <div style="margin-left: 970px; margin-top: -380px">
+            <!-- <img src="Image-3.jpeg" style="width:390px;height:370px;border-bottom-style: dashed; border-style: dashed; border-color: aqua; border-width: 10px" /> -->
+            <img src = "{{url_for('static', filename = 'Image-3.jpeg')}}" style="width:390px;height:370px;border-bottom-style: dashed; border-style: dashed; border-color: aqua; border-width: 10px">
+        </div>
+        
+        <div  style="margin-top: -270px">
+            <button  style="background-color: aqua; border-style:solid; border-color: red; border-width: 10px"><a href="./predict"> CLICK FOR NEXT STEP</a></button>
+        </div>
+        
+        <div style="color:aliceblue; font-family: cursive; margin-top: 100px; font-size: 30px; margin-left:-30px">
+            <i>Developers: Divyesh | Sahil | Siddharth</i>
+            
+        </div>
+    </center>
+        
+        
+    
+    
+    </body>
+
+
+
+</html>
